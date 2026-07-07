@@ -1,0 +1,79 @@
+{
+  "scenarios": [
+    {
+      "name": "Native date input",
+      "baseline": {
+        "addedLoc": 96,
+        "filesChanged": 4,
+        "newDependencies": 1,
+        "riskFlags": 1
+      },
+      "enabled": {
+        "addedLoc": 12,
+        "filesChanged": 1,
+        "newDependencies": 0,
+        "riskFlags": 0
+      }
+    },
+    {
+      "name": "Shared validator bugfix",
+      "baseline": {
+        "addedLoc": 61,
+        "filesChanged": 3,
+        "newDependencies": 0,
+        "riskFlags": 1
+      },
+      "enabled": {
+        "addedLoc": 18,
+        "filesChanged": 1,
+        "newDependencies": 0,
+        "riskFlags": 0
+      }
+    },
+    {
+      "name": "Windows markdown edit",
+      "baseline": {
+        "addedLoc": 42,
+        "filesChanged": 2,
+        "newDependencies": 0,
+        "riskFlags": 3
+      },
+      "enabled": {
+        "addedLoc": 19,
+        "filesChanged": 1,
+        "newDependencies": 0,
+        "riskFlags": 1
+      }
+    },
+    {
+      "name": "CSV import helper",
+      "baseline": {
+        "addedLoc": 84,
+        "filesChanged": 3,
+        "newDependencies": 1,
+        "riskFlags": 1
+      },
+      "enabled": {
+        "addedLoc": 25,
+        "filesChanged": 1,
+        "newDependencies": 0,
+        "riskFlags": 0
+      }
+    },
+    {
+      "name": "Config toggle request",
+      "baseline": {
+        "addedLoc": 89,
+        "filesChanged": 3,
+        "newDependencies": 2,
+        "riskFlags": 1
+      },
+      "enabled": {
+        "addedLoc": 18,
+        "filesChanged": 2,
+        "newDependencies": 0,
+        "riskFlags": 0
+      }
+    }
+  ]
+}

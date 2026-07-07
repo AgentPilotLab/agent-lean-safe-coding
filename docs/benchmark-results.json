@@ -1,0 +1,25 @@
+{
+  "generatedBy": "scripts/benchmark.js",
+  "benchmarkType": "fixture-diff-score",
+  "note": "Reproducible repository fixture benchmark. It scores paired before/after implementation artifacts, not a universal live-agent benchmark.",
+  "totals": {
+    "baseline": {
+      "addedLoc": 372,
+      "filesChanged": 15,
+      "newDependencies": 4,
+      "riskFlags": 7
+    },
+    "enabled": {
+      "addedLoc": 92,
+      "filesChanged": 6,
+      "newDependencies": 0,
+      "riskFlags": 1
+    }
+  },
+  "reductionPercent": {
+    "addedLoc": 75.3,
+    "filesChanged": 60,
+    "newDependencies": 100,
+    "riskFlags": 85.7
+  }
+}

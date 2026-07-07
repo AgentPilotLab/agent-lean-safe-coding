@@ -1,0 +1,52 @@
+{
+  "name": "@agentpilotlab/agent-lean-safe-coding",
+  "version": "0.1.0",
+  "description": "Windows-safe lean coding skill and plugin package for Codex, Claude Code, and AI agents.",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": {
+    "name": "AgentPilotLab",
+    "url": "https://github.com/AgentPilotLab"
+  },
+  "homepage": "https://github.com/AgentPilotLab/agent-lean-safe-coding",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgentPilotLab/agent-lean-safe-coding.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AgentPilotLab/agent-lean-safe-coding/issues"
+  },
+  "keywords": [
+    "codex",
+    "claude-code",
+    "ai-agent",
+    "agent-skills",
+    "lean-coding",
+    "windows-safe",
+    "yagni",
+    "powerShell",
+    "utf-8"
+  ],
+  "files": [
+    "SKILL.md",
+    "skills/",
+    "agents/",
+    ".codex-plugin/",
+    ".claude-plugin/",
+    "hooks/",
+    "references/",
+    "docs/",
+    "benchmarks/",
+    "scripts/",
+    "AGENTS.md",
+    "llms.txt",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "benchmark": "node scripts/benchmark.js",
+    "check:copies": "node scripts/check-skill-copies.js",
+    "privacy": "node scripts/privacy-scan.js",
+    "validate": "node scripts/validate-repo.js",
+    "test": "npm run benchmark && npm run check:copies && npm run privacy && npm run validate"
+  }
+}

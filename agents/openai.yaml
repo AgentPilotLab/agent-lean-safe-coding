@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Lean Safe Coding"
+  short_description: "Windows-safe lean coding workflow for AI agents"
+  default_prompt: "Use agent-lean-safe-coding full for this coding task."

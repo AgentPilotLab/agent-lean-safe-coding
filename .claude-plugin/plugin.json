@@ -1,0 +1,10 @@
+{
+  "name": "agent-lean-safe-coding",
+  "version": "0.1.0",
+  "description": "Windows-safe lean coding workflow for Claude Code and other coding agents.",
+  "author": {
+    "name": "AgentPilotLab",
+    "url": "https://github.com/AgentPilotLab"
+  },
+  "hooks": "./hooks/claude-code-hooks.json"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "agent-lean-safe-coding",
+  "version": "0.1.0",
+  "description": "Windows-safe lean coding skill for AI agents: reuse first, patch small, preserve text, verify narrowly.",
+  "author": {
+    "name": "AgentPilotLab",
+    "url": "https://github.com/AgentPilotLab"
+  },
+  "homepage": "https://github.com/AgentPilotLab/agent-lean-safe-coding",
+  "repository": "https://github.com/AgentPilotLab/agent-lean-safe-coding",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "ai-agent",
+    "codex",
+    "claude-code",
+    "agent-skills",
+    "windows-safe",
+    "lean-coding",
+    "yagni"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agent Lean Safe Coding",
+    "shortDescription": "Lean coding plus Windows-safe patch discipline",
+    "longDescription": "A reusable coding skill for Codex and Claude Code that combines reuse-first implementation, small diffs, Windows shell safety, encoding/newline protection, and narrow verification.",
+    "developerName": "AgentPilotLab",
+    "category": "Productivity",
+    "capabilities": [
+      "Agent Skills",
+      "Coding Workflow",
+      "Review Guidance"
+    ],
+    "websiteURL": "https://github.com/AgentPilotLab/agent-lean-safe-coding",
+    "defaultPrompt": [
+      "Use agent-lean-safe-coding full for this coding task.",
+      "Audit this diff with agent-lean-safe-coding.",
+      "Find the smallest Windows-safe implementation."
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+# agent-lean-safe-coding
+
+Use this repository when an AI coding agent needs a reusable workflow for small correct implementations, Windows-safe text edits, dependency restraint, and narrow verification.
+
+Primary entry points:
+
+- `SKILL.md`: direct skill entry.
+- `skills/agent-lean-safe-coding/SKILL.md`: packaged skill entry for Codex plugin discovery.
+- `.codex-plugin/plugin.json`: Codex plugin metadata.
+- `.claude-plugin/plugin.json`: Claude Code plugin metadata.
+- `docs/AI_AGENT_GUIDE.md`: setup and verification guide for agents.
+- `scripts/benchmark.js`: reproducible fixture benchmark and chart generator.
+- `scripts/privacy-scan.js`: public-release privacy scan.
