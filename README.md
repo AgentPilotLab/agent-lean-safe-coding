@@ -1,5 +1,7 @@
 # Agent Lean Safe Coding - Windows-Safe Lean Coding Skill for Codex and Claude Code
 
+[中文README](README.zh-CN.md)
+
 <a href="https://buymeacoffee.com/mira.ai">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" width="180">
 </a>

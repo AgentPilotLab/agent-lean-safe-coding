@@ -11,6 +11,7 @@ const required = [
   ".claude-plugin/plugin.json",
   "hooks/claude-code-hooks.json",
   "README.md",
+  "README.zh-CN.md",
   "LICENSE",
   "AGENTS.md",
   "llms.txt",

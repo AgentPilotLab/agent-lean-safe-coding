@@ -40,7 +40,8 @@
     "AGENTS.md",
     "llms.txt",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "README.zh-CN.md"
   ],
   "scripts": {
     "benchmark": "node scripts/benchmark.js",
