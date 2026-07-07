@@ -34,7 +34,7 @@ What this checks:
 ## Distribution Status
 
 - Source-tree install: supported now from this repository.
-- GitHub Release: not published yet. A formal release should include install or upgrade notes, Codex setup, Claude Code setup, verification, privacy and license notes, and support details.
+- GitHub Release: `v0.1.0` is published at [Agent Lean Safe Coding v0.1.0](https://github.com/AgentPilotLab/agent-lean-safe-coding/releases/tag/v0.1.0). It includes install notes, Codex setup, Claude Code setup, verification, privacy and license notes, and support details.
 - npm package: not published yet. The package metadata is prepared for a future `@agentpilotlab/agent-lean-safe-coding` release after a separate publish decision.
 
 ## Automatic Invocation
@@ -119,10 +119,6 @@ This repository uses the `AgentPilotLab Non-Commercial License`. Non-commercial 
 ## Privacy
 
 Public examples use placeholders such as `<PROJECT_DIR>` and `<USER_HOME>`. Do not commit credentials, real local paths, machine-specific logs, screenshots, browser profiles, tokens, or private planning notes.
-
-## GitHub Release
-
-No formal GitHub Release has been published yet. The first release should repeat the repository's agent-facing install path, include separate Codex and Claude Code setup notes, list verification commands, state privacy and license boundaries, and attach only public-safe generated assets.
 
 ## AI Entry Points
 

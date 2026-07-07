@@ -35,7 +35,7 @@ npm test
 ## 分发状态
 
 - Source-tree安装：当前已支持，可直接从本仓库使用。
-- GitHub Release：尚未发布。正式release应包含安装或升级说明、Codex setup、Claude Code setup、验证命令、隐私和许可证说明、支持入口。
+- GitHub Release：`v0.1.0`已发布，入口是[Agent Lean Safe Coding v0.1.0](https://github.com/AgentPilotLab/agent-lean-safe-coding/releases/tag/v0.1.0)。该release包含安装说明、Codex setup、Claude Code setup、验证命令、隐私和许可证说明、支持入口。
 - npm package：尚未发布。`@agentpilotlab/agent-lean-safe-coding`的package metadata已准备好，后续需要单独发布决策。
 
 ## 自动调用
@@ -122,10 +122,6 @@ npm run benchmark
 ## 隐私
 
 公开示例使用`<PROJECT_DIR>`和`<USER_HOME>`等占位符。不要提交凭证、真实本地路径、机器相关日志、截图、浏览器profile、token或私有规划笔记。
-
-## GitHub Release
-
-当前还没有正式GitHub Release。首次release应重复仓库的agent安装路径，分别列出Codex和Claude Code setup，写明验证命令、隐私和许可证边界，并且只附加可公开分发的生成资产。
 
 ## AI入口
 

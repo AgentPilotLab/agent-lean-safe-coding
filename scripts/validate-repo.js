@@ -18,7 +18,8 @@ const required = [
   "docs/AI_AGENT_GUIDE.md",
   "docs/assets/benchmark-bars.svg",
   "docs/assets/buy-me-a-coffee-qr.jpg",
-  "docs/benchmark-results.json"
+  "docs/benchmark-results.json",
+  "docs/releases/v0.1.0.md"
 ];
 
 const missing = required.filter((file) => !fs.existsSync(path.join(root, file)));
