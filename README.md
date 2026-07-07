@@ -1,10 +1,7 @@
 # Agent Lean Safe Coding - Windows-Safe Lean Coding Skill for Codex and Claude Code
 
-[中文README](README.zh-CN.md)
-
-<a href="https://buymeacoffee.com/mira.ai">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" width="180">
-</a>
+[![中文README](https://img.shields.io/badge/README-中文-blue?style=flat-square)](README.zh-CN.md)
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-mira.ai-FFDD00?style=flat-square&logo=buymeacoffee&logoColor=000)](https://buymeacoffee.com/mira.ai)
 
 `agent-lean-safe-coding` is an AI agent skill and plugin package for Codex, Claude Code, and other coding agents. Use it when a coding task needs two things at once: smaller implementation choices and safer Windows/text edits. It helps agents reuse existing code, avoid unnecessary dependencies, protect Unicode/Chinese/Markdown/prompt files, preserve line endings, patch narrowly, and verify the smallest useful gate.
 
@@ -98,7 +95,7 @@ npm run benchmark
 
 The measurement data lives in `benchmarks/fixtures.json` and `docs/benchmark-results.json`.
 
-## Comparison With Existing Tools
+## Similar Projects
 
 GitHub star counts below were checked on 2026-07-07 and may change.
 

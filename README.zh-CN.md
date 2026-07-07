@@ -1,10 +1,7 @@
 # Agent Lean Safe Coding - 面向Codex和Claude Code的Windows安全精简编码Skill
 
-[English README](README.md)
-
-<a href="https://buymeacoffee.com/mira.ai">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" width="180">
-</a>
+[![English README](https://img.shields.io/badge/README-English-blue?style=flat-square)](README.md)
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-mira.ai-FFDD00?style=flat-square&logo=buymeacoffee&logoColor=000)](https://buymeacoffee.com/mira.ai)
 
 `agent-lean-safe-coding`是给Codex、Claude Code和其他AIcoding agent使用的skill/plugin包。它适用于同时需要“少写代码、优先复用”和“Windows/文本编辑安全”的编码任务：减少不必要依赖和抽象，保护Unicode、中文、Markdown、prompt文件、换行风格和PowerShell/cmd路径处理，并要求用最小可验证Gate确认结果。
 
@@ -101,7 +98,7 @@ npm run benchmark
 
 数据来源：`benchmarks/fixtures.json`和`docs/benchmark-results.json`。
 
-## 与已有工具对比
+## Similar Projects（相似项目）
 
 下表的GitHub star数量查询于2026-07-07，之后可能变化。
 
