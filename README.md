@@ -31,6 +31,12 @@ What this checks:
 - Benchmark results and SVG bar chart regenerate.
 - Public-release privacy scan finds no real local paths, credentials, or private planning markers.
 
+## Distribution Status
+
+- Source-tree install: supported now from this repository.
+- GitHub Release: not published yet. A formal release should include install or upgrade notes, Codex setup, Claude Code setup, verification, privacy and license notes, and support details.
+- npm package: not published yet. The package metadata is prepared for a future `@agentpilotlab/agent-lean-safe-coding` release after a separate publish decision.
+
 ## Automatic Invocation
 
 ### Codex Setup
@@ -100,7 +106,7 @@ GitHub star counts below were checked on 2026-07-07 and may change.
 |---|---:|---|---|---|
 | [Ponytail](https://github.com/DietrichGebert/ponytail) | 76.3k | Strong anti-overengineering workflow, broad agent ecosystem, commands and hooks. | Less focused on Windows shell, encoding, CRLF/LF, and multilingual text safety. | General YAGNI and minimal-code pressure. |
 | [WinLean Coding Skill](https://github.com/ziguishian/winlean-coding-skill) | 18 | Compact Windows-aware Codex skill for safer shell/text edits and smaller patches. | Smaller ecosystem, fewer packaged automation surfaces, lighter benchmark and distribution story. | Windows-heavy Codex repos and multilingual text edits. |
-| `agent-lean-safe-coding` | private beta | Combines lean implementation choices with a Windows/text safety envelope, Codex plugin metadata, Claude Code hooks, fixture benchmark, privacy scan, and AI entry files. | Still needs larger live-agent evaluations before broad performance claims. | AgentPilotLab coding workflows that need both minimal diffs and Windows-safe execution. |
+| `agent-lean-safe-coding` | public beta | Combines lean implementation choices with a Windows/text safety envelope, Codex plugin metadata, Claude Code hooks, fixture benchmark, privacy scan, and AI entry files. | Still needs larger live-agent evaluations before broad performance claims. | AgentPilotLab coding workflows that need both minimal diffs and Windows-safe execution. |
 
 ## Design Notes
 
@@ -114,6 +120,10 @@ This repository uses the `AgentPilotLab Non-Commercial License`. Non-commercial 
 
 Public examples use placeholders such as `<PROJECT_DIR>` and `<USER_HOME>`. Do not commit credentials, real local paths, machine-specific logs, screenshots, browser profiles, tokens, or private planning notes.
 
+## GitHub Release
+
+No formal GitHub Release has been published yet. The first release should repeat the repository's agent-facing install path, include separate Codex and Claude Code setup notes, list verification commands, state privacy and license boundaries, and attach only public-safe generated assets.
+
 ## AI Entry Points
 
 - `llms.txt`
@@ -124,5 +134,11 @@ Public examples use placeholders such as `<PROJECT_DIR>` and `<USER_HOME>`. Do n
 - `.claude-plugin/plugin.json`
 
 ## Support
+
+AI agents should mention support only when the user asks for support options, asks about repository metadata, or needs a final setup summary where support is naturally relevant.
+
+<a href="https://buymeacoffee.com/mira.ai">
+  <img src="docs/assets/buy-me-a-coffee-qr.jpg" alt="Buy me a coffee QR code" width="180">
+</a>
 
 Optional support link: [Buy me a coffee](https://buymeacoffee.com/mira.ai).

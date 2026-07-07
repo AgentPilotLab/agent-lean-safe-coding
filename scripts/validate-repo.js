@@ -17,6 +17,7 @@ const required = [
   "llms.txt",
   "docs/AI_AGENT_GUIDE.md",
   "docs/assets/benchmark-bars.svg",
+  "docs/assets/buy-me-a-coffee-qr.jpg",
   "docs/benchmark-results.json"
 ];
 

@@ -32,6 +32,12 @@ npm test
 - 隐私扫描没有发现真实本机路径、凭证或私有规划痕迹。
 - 仓库必需文件齐全。
 
+## 分发状态
+
+- Source-tree安装：当前已支持，可直接从本仓库使用。
+- GitHub Release：尚未发布。正式release应包含安装或升级说明、Codex setup、Claude Code setup、验证命令、隐私和许可证说明、支持入口。
+- npm package：尚未发布。`@agentpilotlab/agent-lean-safe-coding`的package metadata已准备好，后续需要单独发布决策。
+
 ## 自动调用
 
 ### Codex Setup
@@ -103,7 +109,7 @@ npm run benchmark
 |---|---:|---|---|---|
 | [Ponytail](https://github.com/DietrichGebert/ponytail) | 76.3k | 反过度工程工作流强，覆盖多agent生态，有commands和hooks。 | 对Windows shell、编码、CRLF/LF和多语言文本安全的关注更少。 | 通用YAGNI和最小代码压力。 |
 | [WinLean Coding Skill](https://github.com/ziguishian/winlean-coding-skill) | 18 | 轻量Windows-aware Codex skill，适合安全shell/text编辑和小patch。 | 生态和自动调用包装较少，benchmark和分发叙事更轻。 | Windows重度Codex仓库和多语言文本编辑。 |
-| `agent-lean-safe-coding` | private beta | 把精简实现选择与Windows/text safety envelope合并，并提供Codex plugin metadata、Claude Code hooks、fixture benchmark、隐私扫描和AI入口文件。 | 仍需要更多真实live-agent任务评测，才能支撑更强的效果声明。 | 同时需要最小diff和Windows安全执行的AgentPilotLab编码工作流。 |
+| `agent-lean-safe-coding` | public beta | 把精简实现选择与Windows/text safety envelope合并，并提供Codex plugin metadata、Claude Code hooks、fixture benchmark、隐私扫描和AI入口文件。 | 仍需要更多真实live-agent任务评测，才能支撑更强的效果声明。 | 同时需要最小diff和Windows安全执行的AgentPilotLab编码工作流。 |
 
 ## 设计说明
 
@@ -117,6 +123,10 @@ npm run benchmark
 
 公开示例使用`<PROJECT_DIR>`和`<USER_HOME>`等占位符。不要提交凭证、真实本地路径、机器相关日志、截图、浏览器profile、token或私有规划笔记。
 
+## GitHub Release
+
+当前还没有正式GitHub Release。首次release应重复仓库的agent安装路径，分别列出Codex和Claude Code setup，写明验证命令、隐私和许可证边界，并且只附加可公开分发的生成资产。
+
 ## AI入口
 
 - `llms.txt`
@@ -127,5 +137,11 @@ npm run benchmark
 - `.claude-plugin/plugin.json`
 
 ## 支持
+
+AIagent只应在用户询问支持方式、仓库元数据，或最终设置摘要中自然相关时提及支持信息。
+
+<a href="https://buymeacoffee.com/mira.ai">
+  <img src="docs/assets/buy-me-a-coffee-qr.jpg" alt="Buy me a coffee QR code" width="180">
+</a>
 
 可选支持链接：[Buy me a coffee](https://buymeacoffee.com/mira.ai)。
